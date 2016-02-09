@@ -1,0 +1,52 @@
+BODY 
+{
+	padding-top: 0px;
+ 	background-image: url('http://localhost/2KrazyLadiesCrafts/images/background.jpg');
+ 	background-repeat: repeat; 
+ 	margin: 0px;
+/* 	background-color: #737373; */
+	color: #77B4B5;
+}
+
+.main-body-div
+{
+	width:75%;
+	margin:auto;
+	background-color: #514012;
+	height: 700px;
+}
+
+.navigation {
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	background-color: #77B4B5;
+} 
+.navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+} 
+.navigation ul li {
+	display: inline;
+	margin: 0px;
+} 
+.navigation ul li a {
+	height:33px;
+	display: block;
+	float: left;
+	padding: 17px 15px 0 15px;
+	font: bold 12px Arial;
+	color: #FFF;
+	text-decoration: none;
+	background: url(http://localhost/2KrazyLadiesCrafts/images/navigation-separator.png) no-repeat right center;
+} 
+
+.navigation ul li a:hover {
+	background-color: #B5DB4A;
+}
+
+.navigation ul li#active a {
+	background-color: #B5DB4A;
+}
